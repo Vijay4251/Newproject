@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pavanselframework">
+
+<listeners>
+  <listener class-name="com.Pavanselframework.utilities.Reporting"/>
+</listeners>
+
+  <test name="Banking app">
+  
+   <parameter name="browser" value="chrome"/> 
+  
+    <classes>
+           <!--   <class name="com.Pavanselframework.testcases.TC_Logintest_001"/>-->
+         <!--   <class name="com.Pavanselframework.testcases.TC_LoginDDT_001"/>-->
+       <!-- <class name="com.Pavanselframework.testcases.FB_TC_Login_01"/>-->
+          <!--  <class name="com.Pavanselframework.testcases.Addnewcustguru99"/>-->
+           <!--  <class name="com.Pavanselframework.testcases.TC_Editcustguru99_01"/>-->
+          <!--  <class name="com.Pavanselframework.testcases.TC_NewAccnt_01"/>-->
+            <!-- <class name="com.Pavanselframework.testcases.TC_Fundtrs_01"/>-->
+          <!--    <class name="com.Pavanselframework.testcases.TC_MiniStat_01"/>-->
+              <class name="com.Pavanselframework.testcases.TC_Custmigedstatement_01"/>
+    </classes>
+    
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Pavanselframework]">
+  <listeners>
+    <listener class-name="com.Pavanselframework.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Banking app(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.Pavanselframework.testcases.TC_LoginDDT_001">
+        <methods>
+          <include name="LOginDDT" invocation-numbers="1 2 4 5"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Pavanselframework.testcases.TC_LoginDDT_001 -->
+    </classes>
+  </test> <!-- Banking app(failed) -->
+</suite> <!-- Failed suite [Pavanselframework] -->
