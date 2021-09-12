@@ -5,15 +5,15 @@
     <listener class-name="com.Pavanselframework.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Banking app(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.Pavanselframework.testcases.TC_LoginDDT_001">
+      <class name="com.Pavanselframework.testcases.Addnewcustguru99">
         <methods>
-          <include name="LOginDDT" invocation-numbers="1 2 4 5"/>
+          <include name="addnewcust"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.Pavanselframework.testcases.TC_LoginDDT_001 -->
+      </class> <!-- com.Pavanselframework.testcases.Addnewcustguru99 -->
     </classes>
   </test> <!-- Banking app(failed) -->
 </suite> <!-- Failed suite [Pavanselframework] -->

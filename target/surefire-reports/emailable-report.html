@@ -9,35 +9,31 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Pavanselframework</th></tr>
-<tr><td><a href="#t0">Banking app</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">4</td><td class="num">99,370</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Banking app</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">81,803</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Pavanselframework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking app &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.Pavanselframework.testcases.TC_LoginDDT_001</td><td><a href="#m0">LOginDDT</a></td><td rowspan="4">1626060426745</td><td rowspan="4">5395</td></tr><tr class="failedeven"><td><a href="#m1">LOginDDT</a></td></tr><tr class="failedeven"><td><a href="#m2">LOginDDT</a></td></tr><tr class="failedeven"><td><a href="#m3">LOginDDT</a></td></tr><tr><th colspan="4">Banking app &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.Pavanselframework.testcases.TC_LoginDDT_001</td><td><a href="#m4">LOginDDT</a></td><td rowspan="2">1626060403420</td><td rowspan="2">12303</td></tr><tr class="passedeven"><td><a href="#m5">LOginDDT</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Pavanselframework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Banking app &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Pavanselframework.testcases.Addnewcustguru99</td><td><a href="#m0">addnewcust</a></td><td rowspan="1">1631429900991</td><td rowspan="1">11013</td></tr></tbody>
 </table>
-<h2>Banking app</h2><h3 id="m0">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr137319</td><td>bAdYvyb</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
+<h2>Banking app</h2><h3 id="m0">com.Pavanselframework.testcases.Addnewcustguru99#addnewcust</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;VIJAY-PC&apos;, ip: &apos;192.168.246.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22472, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94f71150-00e3-4cbd-bab2-3a46a86eb310
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[3]/div[1]/ul[1]/li[2]/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.Pavanselframework.pageobjects.Addcustomer.clickaddcustomer(Addcustomer.java:71)
+	at com.Pavanselframework.testcases.Addnewcustguru99.addnewcust(Addnewcustguru99.java:31)
 ... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr83460</td><td>qAbUzyj</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr112909</td><td>tytUreg</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr332988</td><td>anugAhA</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">junit.framework.AssertionFailedError
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr338707</td><td>agerUtY</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.Pavanselframework.testcases.TC_LoginDDT_001#LOginDDT</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr338707</td><td>agerUtY</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -307,3 +307,61 @@
 2021-07-12 15:49:04,165 - ebanking -INFO - Amount entered
 2021-07-12 15:49:04,249 - ebanking -INFO - entered number of transactions
 2021-07-12 15:49:08,438 - ebanking -INFO - login passed
+2021-07-13 10:45:19,464 - ebanking -INFO - Account number entered
+2021-07-13 10:45:19,830 - ebanking -INFO - from date is provided
+2021-07-13 10:45:19,991 - ebanking -INFO - To date is provided
+2021-07-13 10:45:20,066 - ebanking -INFO - Amount entered
+2021-07-13 10:45:20,149 - ebanking -INFO - entered number of transactions
+2021-07-13 10:45:24,499 - ebanking -INFO - login passed
+2021-07-13 10:46:54,603 - ebanking -INFO - Account number entered
+2021-07-13 10:46:54,779 - ebanking -INFO - from date is provided
+2021-07-13 10:46:54,936 - ebanking -INFO - To date is provided
+2021-07-13 10:46:55,004 - ebanking -INFO - Amount entered
+2021-07-13 10:46:55,070 - ebanking -INFO - entered number of transactions
+2021-07-13 10:46:59,455 - ebanking -INFO - login passed
+2021-07-13 12:41:48,042 - ebanking -INFO - Account number entered
+2021-07-13 12:41:48,668 - ebanking -INFO - from date is provided
+2021-07-13 12:41:49,066 - ebanking -INFO - To date is provided
+2021-07-13 12:41:49,173 - ebanking -INFO - Amount entered
+2021-07-13 12:41:49,259 - ebanking -INFO - entered number of transactions
+2021-07-13 12:41:53,553 - ebanking -INFO - login passed
+2021-07-13 12:51:54,835 - ebanking -INFO - Account number entered
+2021-07-13 12:51:55,274 - ebanking -INFO - from date is provided
+2021-07-13 12:51:55,608 - ebanking -INFO - To date is provided
+2021-07-13 12:51:55,713 - ebanking -INFO - Amount entered
+2021-07-13 12:51:55,863 - ebanking -INFO - entered number of transactions
+2021-07-13 12:52:00,393 - ebanking -INFO - login passed
+2021-07-13 13:14:23,554 - ebanking -INFO - Account number entered
+2021-07-13 13:14:23,982 - ebanking -INFO - from date is provided
+2021-07-13 13:14:24,177 - ebanking -INFO - To date is provided
+2021-07-13 13:14:24,234 - ebanking -INFO - Amount entered
+2021-07-13 13:14:24,321 - ebanking -INFO - entered number of transactions
+2021-07-13 13:14:28,526 - ebanking -INFO - login passed
+2021-09-01 11:47:58,551 - ebanking -INFO - url is opened
+2021-09-01 11:47:59,125 - ebanking -INFO - username provided
+2021-09-01 11:47:59,210 - ebanking -INFO - password provided
+2021-09-01 11:48:04,167 - ebanking -INFO - login test pass
+2021-09-01 12:06:13,711 - ebanking -INFO - url is opened
+2021-09-01 12:06:14,140 - ebanking -INFO - username provided
+2021-09-01 12:06:14,191 - ebanking -INFO - password provided
+2021-09-01 12:06:18,552 - ebanking -INFO - login test pass
+2021-09-01 12:17:30,284 - ebanking -INFO - url is opened
+2021-09-01 12:17:31,547 - ebanking -INFO - username provided
+2021-09-01 12:17:32,231 - ebanking -INFO - password provided
+2021-09-01 12:22:55,157 - ebanking -INFO - username provided
+2021-09-01 12:22:55,584 - ebanking -INFO - password provided
+2021-09-01 12:23:15,552 - ebanking -INFO - validation started
+2021-09-01 12:35:38,817 - ebanking -INFO - username provided
+2021-09-01 12:35:39,467 - ebanking -INFO - password provided
+2021-09-01 12:35:52,096 - ebanking -INFO - validation started
+2021-09-01 12:38:42,587 - ebanking -INFO - username provided
+2021-09-01 12:38:42,660 - ebanking -INFO - password provided
+2021-09-01 12:38:54,777 - ebanking -INFO - validation started
+2021-09-01 12:45:11,045 - ebanking -INFO - username provided
+2021-09-01 12:45:11,486 - ebanking -INFO - password provided
+2021-09-01 12:45:25,652 - ebanking -INFO - validation started
+2021-09-01 12:48:38,396 - ebanking -INFO - username provided
+2021-09-01 12:48:39,228 - ebanking -INFO - password provided
+2021-09-01 12:48:50,544 - ebanking -INFO - validation started
+2021-09-12 12:28:22,901 - ebanking -INFO - username provided
+2021-09-12 12:28:23,332 - ebanking -INFO - password provided

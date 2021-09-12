@@ -25,12 +25,12 @@ public class TC_MiniStat_01 extends BaseClass {
 		Ministat mn = new Ministat(driver);
 		
 		mn.clkminista();
-		mn.Accntno("94755");
+		mn.Accntno("96117");
 		mn.submit();
 		
 		Thread.sleep(3000);
 		
-		boolean res = driver.getPageSource().contains("Last Five Transaction Details for Account No: 94755");
+		boolean res = driver.getPageSource().contains("Last Five Transaction Details for Account No: 96117");
 		if(res==true)
 		{
 			Assert.assertTrue(true);

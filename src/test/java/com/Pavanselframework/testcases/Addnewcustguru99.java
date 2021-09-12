@@ -31,8 +31,9 @@ public class Addnewcustguru99  extends BaseClass {
 		addcust.clickaddcustomer();
 		addcust.customername("vijay");
 		addcust.gender("male");
-		addcust.dateb("10", "15", "1995");
-		Thread.sleep(5000);
+		
+		addcust.dateb("10","15","1995");
+		//Thread.sleep(3000);
 		
 		addcust.custaddress("INDIA"); 
 		addcust.custcity("BANGLORE");

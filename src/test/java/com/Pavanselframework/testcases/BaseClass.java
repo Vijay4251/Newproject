@@ -21,19 +21,19 @@ import com.Pavanselframework.utilities.Readconfig;
 
 public class BaseClass {
 	
-	Readconfig readconfig = new Readconfig();
+	//Readconfig readconfig = new Readconfig();
 	
 	//guru99 bank application
-	/*public String baseURL="http://demo.guru99.com/v4/";
-	public String username="mngr338707";
-	public String password="agerUtY";
-	public static WebDriver driver;*/
+	public String baseURL="http://demo.guru99.com/v4/";
+	public String username="mngr348437";
+	public String password="ydEhyqA";
+	public static WebDriver driver;
 	
-	//Readconfiguration concept
+	/*Readconfiguration concept
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
-	public static WebDriver driver;
+	public static WebDriver driver;*/
 	
 	//swag labs application
 	/*public String baseURL="https://www.saucedemo.com/";
@@ -54,16 +54,17 @@ public class BaseClass {
 		
 		
 		
-		if(br.equals("chrome"))
+		/*if(br.equals("chrome"))
 		{
-		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver",readconfig.getChromepath());
 		driver=new ChromeDriver();
-		}
+		}*/
 		
-		else if(br.equals("firefox"))
+		 if(br.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", readconfig.getFirefoxpath());
+			 System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", readconfig.getFirefoxpath());
 			driver=new FirefoxDriver();
 		}
 		
@@ -73,6 +74,7 @@ public class BaseClass {
 		driver.get(baseURL);
 				
 	}
+
 	
 	
 	@AfterClass

@@ -1,32 +1,27 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 100.76 sec <<< FAILURE! - in TestSuite
-LOginDDT(com.Pavanselframework.testcases.TC_LoginDDT_001)  Time elapsed: 11.003 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-
-LOginDDT(com.Pavanselframework.testcases.TC_LoginDDT_001)  Time elapsed: 5.392 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-
-LOginDDT(com.Pavanselframework.testcases.TC_LoginDDT_001)  Time elapsed: 5.446 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
-
-LOginDDT(com.Pavanselframework.testcases.TC_LoginDDT_001)  Time elapsed: 5.367 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: null
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.assertTrue(Assert.java:20)
-	at junit.framework.Assert.assertTrue(Assert.java:27)
-	at com.Pavanselframework.testcases.TC_LoginDDT_001.LOginDDT(TC_LoginDDT_001.java:34)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 86.581 sec <<< FAILURE! - in TestSuite
+addnewcust(com.Pavanselframework.testcases.Addnewcustguru99)  Time elapsed: 11.313 sec  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'VIJAY-PC', ip: '192.168.246.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22472, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94f71150-00e3-4cbd-bab2-3a46a86eb310
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[3]/div[1]/ul[1]/li[2]/a[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.Pavanselframework.pageobjects.Addcustomer.clickaddcustomer(Addcustomer.java:71)
+	at com.Pavanselframework.testcases.Addnewcustguru99.addnewcust(Addnewcustguru99.java:31)
 
