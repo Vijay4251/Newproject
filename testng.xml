@@ -12,10 +12,10 @@
   
     <classes>
                   <!--  <class name="com.Pavanselframework.testcases.TC_Logintest_001"/>-->
-         <!--   <class name="com.Pavanselframework.testcases.TC_LoginDDT_001"/>-->
+          <class name="com.Pavanselframework.testcases.TC_LoginDDT_001"/>
      <!--     <class name="com.Pavanselframework.testcases.FB_TC_Login_01"/>-->
-               <class name="com.Pavanselframework.testcases.Addnewcustguru99"/>
-           <!--  <class name="com.Pavanselframework.testcases.TC_Editcustguru99_01"/>-->
+              <!--  <class name="com.Pavanselframework.testcases.Addnewcustguru99"/>-->
+             <!-- <class name="com.Pavanselframework.testcases.TC_Editcustguru99_01"/>-->
           <!--  <class name="com.Pavanselframework.testcases.TC_NewAccnt_01"/>-->
             <!-- <class name="com.Pavanselframework.testcases.TC_Fundtrs_01"/>-->
            <!--   <class name="com.Pavanselframework.testcases.TC_MiniStat_01"/>-->

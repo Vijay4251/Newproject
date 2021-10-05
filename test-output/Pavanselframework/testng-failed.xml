@@ -8,19 +8,18 @@
   <test name="Banking app">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.Pavanselframework.testcases.Addnewcustguru99"/>
+      <class name="com.Pavanselframework.testcases.TC_LoginDDT_001"/>
     </classes>
   </test> <!-- Banking app -->
   <test name="Banking app(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.Pavanselframework.testcases.Addnewcustguru99">
+      <class name="com.Pavanselframework.testcases.TC_LoginDDT_001">
         <methods>
-          <include name="addnewcust"/>
+          <include name="LOginDDT"/>
           <include name="setup"/>
-          <include name="teardown"/>
         </methods>
-      </class> <!-- com.Pavanselframework.testcases.Addnewcustguru99 -->
+      </class> <!-- com.Pavanselframework.testcases.TC_LoginDDT_001 -->
     </classes>
   </test> <!-- Banking app(failed) -->
 </suite> <!-- Failed suite [Pavanselframework] -->

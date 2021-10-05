@@ -25,8 +25,8 @@ public class BaseClass {
 	
 	//guru99 bank application
 	public String baseURL="http://demo.guru99.com/v4/";
-	public String username="mngr348437";
-	public String password="ydEhyqA";
+	public String username="mngr353217";
+	public String password="ehadEru";
 	public static WebDriver driver;
 	
 	/*Readconfiguration concept
